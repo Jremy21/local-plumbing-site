@@ -27,6 +27,7 @@ This project includes a custom homepage, dedicated services page, About Us page,
 - Dedicated interior pages for navigation clarity
 - Plumbing-specific imagery and service language
 - Responsive layout suitable for desktop and mobile viewing
+- Mobile `Contact Us` layout simplifies the panel by hiding the image on smaller screens
 
 ## Usage
 
