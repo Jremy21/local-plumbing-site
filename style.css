@@ -920,6 +920,7 @@ button:hover {
     text-align: center;
     height: auto;
     gap: 15px;
+    padding: 10px 16px 18px;
     justify-items: center;
   }
 
@@ -927,6 +928,8 @@ button:hover {
     justify-self: center;
     align-self: center;
     margin: 0 auto;
+    width: min(100%, 280px);
+    box-sizing: border-box;
   }
 
   .logo-row {
