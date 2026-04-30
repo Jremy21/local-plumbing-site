@@ -28,6 +28,7 @@ This project includes a custom homepage, dedicated services page, About Us page,
 - Plumbing-specific imagery and service language
 - Responsive layout suitable for desktop and mobile viewing
 - Mobile `Contact Us` layout simplifies the panel by hiding the image on smaller screens
+- Footer contact icons use inline SVGs, including a corrected email icon across all pages
 
 ## Usage
 
