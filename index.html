@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gianni's Plumbing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">
+      <div class="logo-row">
+        <svg class="logo-icon" viewBox="0 0 24 24">
+          <path d="M22.7 19.3l-6.4-6.4c.6-1.6.3-3.5-1-4.8-1.4-1.4-3.4-1.8-5.1-1.2l3.2 3.2-3.3 3.3-3.3-3.2c-.6 1.7-.2 3.7 1.2 5.1 1.3 1.3 3.2 1.6 4.8 1l6.4 6.4c.4.4 1 .4 1.4 0l2.1-2.1c.4-.3.4-.9 0-1.3z"/>
+        </svg>
+
+        <h1>GIANNI'S<br>PLUMBING</h1>
+      </div>
+
+      <p>Licensed & Insured</p>
+    </div>
+
+    <nav class="nav-tabs">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="header-contact">
+      <a href="tel:+12035551234" class="phone">
+        <svg class="phone-icon" viewBox="0 0 24 24">
+          <path d="M6.6 10.8c1.6 3.1 4.5 6 7.6 7.6l2.5-2.5c.3-.3.8-.4 1.2-.3 1.3.4 2.7.6 4.1.6.7 0 1.2.5 1.2 1.2V21c0 .7-.5 1.2-1.2 1.2C10.3 22.2 1.8 13.7 1.8 3.2 1.8 2.5 2.3 2 3 2h3.5c.7 0 1.2.5 1.2 1.2 0 1.4.2 2.8.6 4.1.1.4 0 .9-.3 1.2l-2.4 2.3z"/>
+        </svg>
+        203-555-1234
+      </a>
+
+      <a href="tel:+12035551234" class="request-btn">Call Now</a>
+    </div>
+  </header>
+
+  <section class="hero">
+
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <a class="card" href="services.html#leak-repair">Leak Repair</a>
+      <a class="card" href="services.html#drain-cleaning">Drain Cleaning</a>
+      <a class="card" href="services.html#installations">Installations</a>
+    </section>
+
+    <div class="hero-content">
+      <h2>Reliable Plumbing Services</h2>
+      <p>Fast, affordable, and professional service</p>
+      <a href="index.html" class="btn">Schedule a Check</a>
+    </div>
+
+    <div class="form-container" id="contact">
+      <div class="form-title">
+        <h2>Requesting Service</h2>
+        <p>Contact by phone for fastest response. Phone: 203-555-1234</p>
+        <hr class="form-divider">
+        <p>Customers will receive a call back within 24 hours.</p>
+      </div>
+
+      <form action="https://formspree.io/f/meenjnlo" method="POST">
+        <input type="hidden" name="_redirect" value="success.html">
+
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="phone" placeholder="Phone">
+        <textarea name="message" placeholder="Describe your issue"></textarea>
+
+        <button type="submit">Send Request</button>
+      </form>
+    </div>
+
+  </section>
+
+  <section class="home-proof">
+    <div class="home-proof-inner">
+      <div class="home-proof-copy">
+        <p class="home-proof-eyebrow">Why Homeowners Choose Gianni's Plumbing</p>
+        <h2>Professional plumbing service backed by experience, clean workmanship, and dependable results.</h2>
+        <p>
+          Gianni's Plumbing delivers reliable residential service across Rhode Island and nearby Southeast Massachusetts.
+          Whether the job is a repair, drain issue, or new installation, the focus stays on clear communication,
+          quality work, and solutions built to last.
+        </p>
+        <p>
+          Homeowners trust us for responsive scheduling, honest service, and consistent attention to detail from the first call
+          through the final walkthrough.
+        </p>
+      </div>
+
+      <div class="home-proof-visual">
+        <img src="Images/installations-new.jpg" alt="Kitchen plumbing installation work under a sink">
+
+        <div class="home-proof-stats">
+          <div class="proof-card">
+            <strong>10</strong>
+            <span>Years Experience</span>
+          </div>
+
+          <div class="proof-card">
+            <strong>100%</strong>
+            <span>Licensed & Insured</span>
+          </div>
+
+          <div class="proof-card">
+            <strong>200+</strong>
+            <span>Projects Completed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <div class="faq-inner">
+      <p class="faq-eyebrow">Your Questions, Answered</p>
+      <h2>FAQ</h2>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>What plumbing issues should I call about right away?</summary>
+          <p>
+            You should contact a plumber immediately for active leaks, burst pipes, backed-up drains, overflowing toilets,
+            no water service, or any plumbing problem that could quickly cause water damage to your home.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do you handle a typical leak repair visit?</summary>
+          <p>
+            We inspect the affected area, find the source of the leak, explain the repair clearly, and complete the fix using
+            the right replacement parts. After the repair, we test the line or fixture to make sure everything is sealed properly.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can you clear slow or clogged drains?</summary>
+          <p>
+            Yes. We handle slow drains, common clogs, and drainage backups by identifying the blockage and using the right
+            method to clear the line safely and restore normal flow.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Do you install new plumbing fixtures and replacements?</summary>
+          <p>
+            Yes. We install and replace plumbing fixtures such as faucets, sinks, toilets, shutoff valves, and other
+            residential plumbing components, making sure everything is connected and working correctly before the job is finished.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What areas do you serve?</summary>
+          <p>
+            Gianni's Plumbing serves homeowners throughout Rhode Island and nearby Southeast Massachusetts, with service focused
+            on reliable scheduling, professional workmanship, and clear communication.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-left">
+        <div class="footer-logo">
+          <div class="logo-row">
+            <svg class="logo-icon" viewBox="0 0 24 24">
+              <path d="M22.7 19.3l-6.4-6.4c.6-1.6.3-3.5-1-4.8-1.4-1.4-3.4-1.8-5.1-1.2l3.2 3.2-3.3 3.3-3.3-3.2c-.6 1.7-.2 3.7 1.2 5.1 1.3 1.3 3.2 1.6 4.8 1l6.4 6.4c.4.4 1 .4 1.4 0l2.1-2.1c.4-.3.4-.9 0-1.3z"/>
+            </svg>
+            <h3>GIANNI'S<br>PLUMBING</h3>
+          </div>
+          <p>Licensed & Insured</p>
+        </div>
+        <p>Reliable residential plumbing services you can trust.</p>
+        <p>RI REG# GB-26168 · Fully Registered & Insured</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="#services">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+
+        <p>
+          <svg class="footer-icon" viewBox="0 0 24 24">
+            <path d="M6.6 10.8c1.6 3.1 4.5 6 7.6 7.6l2.5-2.5c.3-.3.8-.4 1.2-.3 1.3.4 2.7.6 4.1.6.7 0 1.2.5 1.2 1.2V21c0 .7-.5 1.2-1.2 1.2C10.3 22.2 1.8 13.7 1.8 3.2 1.8 2.5 2.3 2 3 2h3.5c.7 0 1.2.5 1.2 1.2 0 1.4.2 2.8.6 4.1.1.4 0 .9-.3 1.2l-2.4 2.3z"/>
+          </svg>
+          203-555-1234
+        </p>
+
+        <p>
+          <svg class="footer-icon" viewBox="0 0 24 24">
+            <path d="M2 4h20v16H2V4zm10 7L2 6h20l-10 5z"/>
+          </svg>
+          info@giannisplumbing.com
+        </p>
+
+        <p>
+          <svg class="footer-icon" viewBox="0 0 24 24">
+            <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
+          </svg>
+          Rhode Island
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Gianni's Plumbing. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
