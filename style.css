@@ -920,6 +920,13 @@ button:hover {
     text-align: center;
     height: auto;
     gap: 15px;
+    justify-items: center;
+  }
+
+  .logo {
+    justify-self: center;
+    align-self: center;
+    margin: 0 auto;
   }
 
   .logo-row {
